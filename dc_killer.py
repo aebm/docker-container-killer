@@ -55,7 +55,7 @@ def validate_args(args):
 
 
 def get_docker_client():
-    return docker.from_env()
+    return docker.from_env(version='auto')
 
 
 def get_all_containers(client):
