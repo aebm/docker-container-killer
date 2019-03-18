@@ -1,4 +1,4 @@
-FROM python:3.7.2-alpine3.8
+FROM python:3.7.2-alpine3.9
 MAINTAINER Alejandro Brito Monedero <alejandro.monedero@gmail.com>
 
 WORKDIR /usr/src/app
